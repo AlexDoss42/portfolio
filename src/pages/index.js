@@ -5,8 +5,11 @@ import Navbar from "../components/Navbar"
 export default () => (
   <div>
     <Navbar />
-    <Header headerText='Alex Doss'/>
-    <p>Web Developer | Economist | Fantasy Football Consultant</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
+
+    <div className='LandingPageHero'>
+      <><Header headerText='Alex Doss'/></>
+      <h3>Web Developer | Economist | Fantasy Football Consultant</h3>
+    </div>
+    
   </div>
 )

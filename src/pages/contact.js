@@ -7,8 +7,8 @@ export default () => (
     <Navbar />
     <Header headerText="Contact" />
 
-    <p>Email: Alex.Doss42@gmail.com</p>
-    <p>LinkedIn:<a>https://www.linkedin.com/in/alex-doss/</a></p>
-    <p>GitHub:<a>https://github.com/AlexDoss42</a></p>
+    <p><i class="fas fa-envelope-open-text"></i>    Alex.Doss42@gmail.com</p>
+    <p><i class="fab fa-linkedin"></i>    <a>https://www.linkedin.com/in/alex-doss/</a></p>
+    <p><i class="fab fa-github"></i>    <a>https://github.com/AlexDoss42</a></p>
   </div>
 )

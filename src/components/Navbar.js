@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 export default () => (
-  <div>
+  <div className='navbarLinks'>
     <Link to="/"><p>Home</p></Link>
     <Link to='/projects'><p>Portfolio</p></Link>
     <Link to='/certificates'><p>Skills</p></Link>

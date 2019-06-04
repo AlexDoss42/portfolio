@@ -7,7 +7,26 @@ export default () => (
     <Navbar />
     <Header headerText='Skills/Certificates' />
     <h2>Skills</h2>
-    <p>PostgreSQL | Express | React.js | Node.js | Redux | HTML | CSS  JavaScript | Git | RESTful API | Socket.io | Gatsby.js | MongoDB Jest | Cypress | SCRUM | Agile | DigitalOcean | Postman</p>
+    <p>
+      PostgreSQL
+      Express
+      React.js 
+      Node.js
+      Redux
+      HTML
+      CSS
+      JavaScript
+      Git
+      Socket.io
+      Gatsby.js
+      MongoDB 
+      Jest
+      Cypress
+      SCRUM
+      Agile
+      DigitalOcean
+      Postman
+      </p>
 
     <h2>Certificates</h2>
 

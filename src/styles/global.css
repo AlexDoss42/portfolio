@@ -1,4 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   background-color: #010425;
   color: whitesmoke;
+}
+
+
+h1 {
+  font-size: 3rem;
+  padding-bottom: 2.5vh;
+  /* width: 100%;
+  align-content: center; */
+}
+
+/* Navbar Component */
+
+.navbarLinks {
+  display: flex;
+  width: 100vw;
+  height: 5vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Landing Page */
+
+.LandingPageHero {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15vh;
+}
+
+/* Project Page */
+
+.ProjectsContainer {
+  width: 98vw;
+  margin: 0 1vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Project {
+  width: 45%;
+}
+
+.Project * {
+  margin-bottom: 10px;
+}
+
+.Project p {
+  font-style: italic;
+}
+
+.Project ul {
+  margin-left: 15px;
+}
+
+.projectPic {
+  width: 95%;
+  margin: 2.5%;
+  border-radius: 10px;
 }
