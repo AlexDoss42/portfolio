@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -13,8 +14,8 @@ html {
 h1 {
   font-size: 3rem;
   padding-bottom: 2.5vh;
-  /* width: 100%;
-  align-content: center; */
+  width: 100%;
+  text-align: center
 }
 
 /* Navbar Component */
@@ -57,6 +58,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.Project a {
+  margin-bottom: 10px;
+}
+
 .Project p {
   font-style: italic;
 }
@@ -69,4 +74,43 @@ h1 {
   width: 95%;
   margin: 2.5%;
   border-radius: 10px;
+}
+
+
+/* About Page */
+
+.aboutMeP {
+  width: 90%;
+  margin: 20px 5%;
+}
+
+#ExperienceHeader {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0px 25px 0px;
+}
+
+.ExperienceContainer {
+  width: 96vw;
+  margin: 0 2vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Experience {
+  width: 90%;
+  margin: 20px 5%;
+}
+
+.Experience * {
+  margin-bottom: 10px;
+}
+
+.Experience p {
+  font-style: italic;
+}
+
+.Experience ul {
+  margin-left: 15px;
 }

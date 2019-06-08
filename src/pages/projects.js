@@ -6,15 +6,15 @@ import dashboard from "../images/Trip_Dashboard.png"
 export default () => (
   <div>
     <Navbar />
-    <Header headerText='Portfolio' />
+    <Header headerText='Portfolio' className='Header'/>
 
     <div className="ProjectsContainer">
       <div className="Project">
-        <h2>TRIPDADDY</h2>
+        <h2><a href='http://tripdaddy.business/#/'>TripDaddy</a></h2>
         <h4>May-Present</h4>
-        <a>http://tripdaddy.business/#/</a>
+        
         <p>
-          Tripdaddy is a web app that eliminates the pain points of coordinating a trip with friends and family. Users are able to pin ideas for their trip to a board and chat in-app as they discuss which events they want to do. Users are able to invite friends to the trip and use the gear and todo list to make sure nothing is forgotten.
+          TripDaddy is a web app that eliminates the pain points of coordinating a trip with friends and family. Users are able to pin ideas for their trip to a board and chat in-app as they discuss which events they want to do. Users are able to invite friends to the trip and use the gear and todo list to make sure nothing is forgotten.
         </p>
         <img src={dashboard} alt='Trip Dashboard' className='projectPic' />
 
@@ -24,7 +24,7 @@ export default () => (
           Tech Stack: PostgreSQL | Express | React.js | Node.js | Redux | RESTful API | Nodemailer | Sass | bcrypt.js
       </h4>
         <p>
-          Github Repo: <a>https://github.com/AlexDoss42/silver-maverick</a>
+        <a href='https://github.com/AlexDoss42/silver-maverick'>Github Repo</a>
         </p>
 
 
@@ -45,17 +45,17 @@ export default () => (
       <div className="Project">
         <h2>Fin-S</h2>
         <h4>May-Present</h4>
-
-        <h3>Full Stack Developer/Team-Lead</h3>
-
-        <h4>
-          Tech Stack: PostgreSQL | MongoDB | Mongoose | Express | React.js | Node.js | Redux | RESTful API | Jest | Chart.js | bcrypt.js
-        </h4>
-
+        {/* <img src='' alt='' className='projectPic' /> */}
         <p>
           Fin-S is a mobile responsive web app that is designed to help users take control of their financial health as it guides them through simple steps.  The app has users enter their financial data and then helps them to gain financial stability through budgeting, snowballing debts, building emergency funds, and proper investment practices.
-  </p>
-
+        </p>
+        <h3>Full Stack Developer/Team-Lead</h3>
+        <h4>
+          Tech Stack: PostgreSQL | MongoDB | Mongoose | Express | React.js | Node.js | Redux | RESTful API | Jest | Chart.js | bcrypt.js | Sass
+        </h4>
+        <p>
+          <a href='https://github.com/fin-s/fin-s'>Github Repo</a>
+        </p>
         <ul>
           <li>
             Extensive unit and end to end testing with Jest & Cypress
@@ -67,18 +67,7 @@ export default () => (
             Implemented MongoDB to create better data storage of users and incomes/debts/expenses
           </li>
         </ul>
-
-        <ul>
-          <li>
-            Github Repo: <a>https://github.com/fin-s/fin-s</a>
-          </li>
-          <li>
-            Url: <a>ADD LINK HERE!!!</a>
-          </li>
-        </ul>
       </div>
     </div>
-
-
   </div>
 )
