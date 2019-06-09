@@ -58,7 +58,7 @@ export default () => (
         </p>
         <ul>
           <li>
-            Extensive unit and end to end testing with Jest & Cypress
+            Unit testing with Jest
           </li>
           <li>
             Chart.js was used to demonstrate the impact of increasing payments on debts

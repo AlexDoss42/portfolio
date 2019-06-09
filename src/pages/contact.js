@@ -2,13 +2,30 @@ import React from "react"
 import Header from "../components/header"
 import Navbar from "../components/Navbar"
 
+import { FaLinkedin, FaEnvelopeOpenText, FaGithub } from 'react-icons/fa'
+
 export default () => (
   <div>
     <Navbar />
     <Header headerText="Talk to me Goose" />
 
-    <p><i class="fas fa-envelope-open-text"></i>    Alex.Doss42@gmail.com</p>
-    <p><i class="fab fa-linkedin"></i>    <a>https://www.linkedin.com/in/alex-doss/</a></p>
-    <p><i class="fab fa-github"></i>    <a>https://github.com/AlexDoss42</a></p>
+    <div className='contactHero'>
+      <p>
+        <FaEnvelopeOpenText />   Alex.Doss42@gmail.com</p>
+      <p>
+        <FaLinkedin />    
+        <a 
+        href='https://www.linkedin.com/in/alex-doss/' 
+        target='_blank'
+        >https://www.linkedin.com/in/alex-doss/</a></p>
+      <p> 
+        <FaGithub />    
+        <a 
+        href='https://github.com/AlexDoss42' 
+        target='_blank'
+        >https://github.com/AlexDoss42</a>
+      </p>
+    </div>
+
   </div>
 )
