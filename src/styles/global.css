@@ -19,6 +19,12 @@ h1 {
   text-align: center
 }
 
+.centeredHeader {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0px 25px 0px;
+}
+
 /* Navbar Component */
 
 .navbarLinks {
@@ -77,18 +83,37 @@ h1 {
   border-radius: 10px;
 }
 
+/* Skills Page */
+
+.certificatesContainer {
+  width: 96vw;
+  margin: 0 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.certificateImg {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
 
 /* About Page */
 
 .aboutMeP {
   width: 90%;
   margin: 20px 5%;
-}
-
-#ExperienceHeader {
-  width: 100%;
-  text-align: center;
-  margin: 25px 0px 25px 0px;
 }
 
 .ExperienceContainer {

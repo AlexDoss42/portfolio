@@ -6,11 +6,11 @@ export default () => (
   <div>
     <Navbar />
     <Header headerText='Skills/Certificates' />
-    <h2>Skills</h2>
+    <h2 className='centeredHeader'>Skills</h2>
     <p>
       PostgreSQL
       Express
-      React.js 
+      React.js
       Node.js
       Redux
       HTML
@@ -19,7 +19,7 @@ export default () => (
       Git
       Socket.io
       Gatsby.js
-      MongoDB 
+      MongoDB
       Jest
       Cypress
       SCRUM
@@ -28,20 +28,25 @@ export default () => (
       Postman
       </p>
 
-    <h2>Certificates</h2>
+    <h2 className='centeredHeader'>Certificates</h2>
 
-    <div>
-      <h4>React Front to Back</h4>
-      <h5>Author: Brad Traversy</h5>
-      <a>https://www.udemy.com/course/react-front-to-back/</a>
-      <img src='https://udemy-certificate.s3.amazonaws.com/image/UC-7TVHZOJE.jpg?l=null' />
+    <div className='certificatesContainer'>
+      <div className='certificate'>
+      <a href='https://www.udemy.com/course/react-front-to-back/'><h4>React Front to Back</h4></a>
+        <h5>Author: Brad Traversy</h5>
+        <img 
+        src='https://udemy-certificate.s3.amazonaws.com/image/UC-7TVHZOJE.jpg?l=null' 
+        className='certificateImg'/>
+        
+      </div>
+      <div className='certificate'>
+        <a href='https://www.udemy.com/understand-javascript/'>
+        <h4>JavaScript: Understanding the Weird Parts</h4></a>
+        <h5>Author: Anthony Alicia</h5>
+        <img 
+        src='https://udemy-certificate.s3.amazonaws.com/image/UC-OPL1ZS5Y.jpg?l=null' 
+        className='certificateImg'/>
+      </div>
     </div>
-    <div>
-      <h4>JavaScript: Understanding the Weird Parts</h4>
-      <h5>Author: Anthony Alicia</h5>
-      <a>https://www.udemy.com/understand-javascript/</a>
-      <img src='https://udemy-certificate.s3.amazonaws.com/image/UC-OPL1ZS5Y.jpg?l=null' />
-    </div>
-
   </div>
 )

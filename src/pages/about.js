@@ -11,7 +11,7 @@ export default () => (
       <p className='aboutMeP'>Well Chris Pratt beat me to the dad-bod comedian role so I guess I have to be a web developer now. Fortunately, with the Web Developer salary I should be able to afford a personal trainer and nutrionist to have the Star Lord/Jurassic World Chris Pratt transformation.  All jokes aside, I love to solve problems and I have an entreprenuerial itch that is near impossible to scratch.  I have spent my professional career working for startups and building awesome products.  I love to learn and dive in head-first in to the next challenge.  After a couple years of project and product management, I finally decided I was going to learn development skills and now I am ready to build something amazing with the next team.</p>
     </div>
 
-    <h2 id='ExperienceHeader'>Experience</h2>
+    <h2 className='centeredHeader'>Experience</h2>
 
     <div className="ExperienceContainer">
       <div className="Experience">
