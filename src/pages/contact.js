@@ -17,12 +17,15 @@ export default () => (
         <a 
         href='https://www.linkedin.com/in/alex-doss/' 
         target='_blank'
-        >https://www.linkedin.com/in/alex-doss/</a></p>
+        rel="noopener noreferrer"
+        >https://www.linkedin.com/in/alex-doss
+        /</a></p>
       <p> 
         <FaGithub />    
         <a 
         href='https://github.com/AlexDoss42' 
         target='_blank'
+        rel="noopener noreferrer"
         >https://github.com/AlexDoss42</a>
       </p>
     </div>

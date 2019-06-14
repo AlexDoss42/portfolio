@@ -11,11 +11,19 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `raleway`,
-            subsets: [`san-serif`],
-          }
+            family: `Raleway`
+          },
         ],
       },
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ]
 }

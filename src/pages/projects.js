@@ -6,13 +6,16 @@ import dashboard from "../images/Trip_Dashboard.png"
 export default () => (
   <div>
     <Navbar />
-    <Header headerText='Portfolio' className='Header'/>
+    <Header headerText='Portfolio' className='Header' />
 
     <div className="ProjectsContainer">
       <div className="Project">
-        <h2><a href='http://tripdaddy.business/#/'>TripDaddy</a></h2>
+        <h2><a
+          href='http://tripdaddy.business/#/'
+          target='_blank'
+          rel="noopener noreferrer">TripDaddy</a></h2>
         <h4>May-Present</h4>
-        
+
         <p>
           TripDaddy is a web app that eliminates the pain points of coordinating a trip with friends and family. Users are able to pin ideas for their trip to a board and chat in-app as they discuss which events they want to do. Users are able to invite friends to the trip and use the gear and todo list to make sure nothing is forgotten.
         </p>
@@ -24,7 +27,10 @@ export default () => (
           Tech Stack: PostgreSQL | Express | React.js | Node.js | Redux | RESTful API | Nodemailer | Sass | bcrypt.js
       </h4>
         <p>
-        <a href='https://github.com/AlexDoss42/silver-maverick'>Github Repo</a>
+          <a
+            href='https://github.com/AlexDoss42/silver-maverick'
+            target='_blank'
+            rel="noopener noreferrer">Github Repo</a>
         </p>
 
 
@@ -43,7 +49,10 @@ export default () => (
       </div>
 
       <div className="Project">
-        <h2>Fin-S</h2>
+        <h2><a
+          href='https://fin-s.us/#/'
+          target='_blank'
+          rel="noopener noreferrer">Fin-S</a></h2>
         <h4>May-Present</h4>
         {/* <img src='' alt='' className='projectPic' /> */}
         <p>
@@ -54,7 +63,10 @@ export default () => (
           Tech Stack: PostgreSQL | MongoDB | Mongoose | Express | React.js | Node.js | Redux | RESTful API | Jest | Chart.js | bcrypt.js | Sass
         </h4>
         <p>
-          <a href='https://github.com/fin-s/fin-s'>Github Repo</a>
+          <a
+            href='https://github.com/fin-s/fin-s'
+            target='_blank'
+            rel="noopener noreferrer">Github Repo</a>
         </p>
         <ul>
           <li>
