@@ -1,10 +1,26 @@
 import React from "react"
-// import { staticQuery } from 'gatsby'
-import Img from 'gatsby-image'
+
 import Header from '../components/Header'
 import Navbar from "../components/Navbar"
-import { graphql } from 'gatsby'
 
+import express from "../images/Express.png"
+import postgres from "../images/PostgreSQL.png"
+import react from "../images/react.png"
+import node from "../images/node.png"
+import redux from "../images/redux.png"
+import html from "../images/HTML.png"
+import css from "../images/css.png"
+import javascript from "../images/javascript.png"
+import git from "../images/git.png"
+import socket from "../images/socket.png"
+import gatsby from "../images/gatsby.png"
+import mongodb from "../images/mongodb.png"
+import jest from "../images/jest.png"
+import scrum from "../images/scrum.png"
+import digitalocean from "../images/digitalocean.png"
+import postman from "../images/postman.png"
+import sass from "../images/sass.png"
+import nodemailer from "../images/nodemailer.png"
 
 export default (props) => {
   console.log(props.data)
@@ -14,79 +30,99 @@ export default (props) => {
       <Header headerText='Skills/Certificates' />
       <h2 className='centeredHeader'>Skills</h2>
       <div className='skillContainer'>
-      <h3 className='centeredHeader'>
-          PostgreSQL | Express | React.js | Node.js | Redux | HTML | CSS | JavaScript | Git | DigitalOcean | Socket.io | Gatsby.js | RESTful API | Nodemailer | Sass | bcrypt.js | SCRUM | Agile | MongoDB | Postman | Jest
-      </h3>
-        {/* <div className='skill'>
-          <Img
-            resolutions={props.data.postgeSQL.childImageSharp.fixed}
-            alt='postgeSQL Logo' />
+
+      <div className='skill'>
+          <img
+            src={postgres}
+            alt='postgreSQL Logo' />
           <p>postgeSQL</p>
-        </div> */}
-        {/* <div className='skill'>
-        <Img src={express} alt='Express Logo' /> 
+        </div>
+
+      <div className='skill'>
+        <img src={express} alt='Express Logo' /> 
         <p>Express</p>
       </div>
+
       <div className='skill'>
-        <Img src='' alt='postgeSQL' />
+        <img src={react} alt='React Logo' />
         <p>React.js</p>
       </div>
+
       <div className='skill'>
-        <Img src='' alt='postgeSQL' />
+        <img src={node} alt='Node Logo' />
         <p>Node.js</p>
       </div>
+
       <div className='skill'>
-        <img src='' alt='postgeSQL' />
+        <img src={redux} alt='Redux Logo' />
         <p>Redux</p>
       </div>
+
       <div className='skill'>
-        <img src='' alt='postgeSQL' />
+        <img src={html} alt='HTML Logo' />
         <p>HTML</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={css} alt='CSS Logo' />
         <p>CSS</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={javascript} alt='JavaScript Logo' />
         <p>JavaScript</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={git} alt='Git Logo' />
         <p>Git</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={socket} alt='Socket.io Logo' />
         <p>Socket.io</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={gatsby} alt='Gatsby Logo' />
         <p>Gatsby.js</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={mongodb} alt='MongoDB Logo' />
         <p>MongoDB</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={jest} alt='Jest Logo' />
         <p>Jest</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
-        <p>Cypress</p>
-      </div>
-      <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={scrum} alt='Scrum Logo' />
         <p>SCRUM</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={digitalocean} alt='DigitalOcean Logo' />
         <p>DigitalOcean</p>
       </div>
+
       <div className='skill'>
-        <img src='https://banner2.kisspng.com/20180421/lkw/kisspng-postgresql-database-logo-computer-icons-replicatio-software-developer-5adbf4c2ceb373.0739840815243644828467.jpg' alt='postgeSQL' />
+        <img src={postman} alt='Postman Logo' />
         <p>Postman</p>
-      </div>  */}
+      </div>
+
+      <div className='skill'>
+        <img src={sass} alt='Sass Logo' />
+        <p>Sass</p>
+      </div>
+
+      <div className='skill'>
+        <img src={nodemailer} alt='Nodemailer Logo' />
+        <p>Nodemailer</p>
+      </div>
+
       </div>
 
       <h2 className='centeredHeader'>Certificates</h2>
@@ -123,16 +159,3 @@ export default (props) => {
     </div>
   )
 }
-
-// export const imageQuery = graphql`
-//   query imageQuery {
-//     postgres: file(relativePath: { eq: "/PostgreSQL.png"}) {
-//       childImageSharp {
-//         fixed(width: 175, height: 60) {
-//           ...GatsbyImageSharpFixed
-//         }
-//       }
-//     }
-//   }
-
-// `

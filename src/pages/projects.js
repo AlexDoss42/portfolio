@@ -2,6 +2,7 @@ import React from "react"
 import Header from '../components/Header'
 import Navbar from "../components/Navbar"
 import dashboard from "../images/Trip_Dashboard.png"
+import chart from "../images/Fin-S_Chart_View.png"
 
 export default () => (
   <div>
@@ -54,11 +55,14 @@ export default () => (
           target='_blank'
           rel="noopener noreferrer">Fin-S</a></h2>
         <h4>May-Present</h4>
-        {/* <img src='' alt='' className='projectPic' /> */}
         <p>
           Fin-S is a mobile responsive web app that is designed to help users take control of their financial health as it guides them through simple steps.  The app has users enter their financial data and then helps them to gain financial stability through budgeting, snowballing debts, building emergency funds, and proper investment practices.
         </p>
+
+        <img src={chart} alt='Fin-S Dashboard' className='projectPic' />
+
         <h3>Full Stack Developer/Team-Lead</h3>
+        
         <h4>
           Tech Stack: PostgreSQL | MongoDB | Mongoose | Express | React.js | Node.js | Redux | RESTful API | Jest | Chart.js | bcrypt.js | Sass
         </h4>
