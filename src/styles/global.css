@@ -145,6 +145,13 @@ a {
   margin: 20px 5%;
 }
 
+.profilePic {
+  height: 60vh;
+  width: auto;
+  margin: 0 40%;
+  border-radius: 400px
+}
+
 .ExperienceContainer {
   width: 96vw;
   margin: 0 2vw;

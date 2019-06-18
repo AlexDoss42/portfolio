@@ -133,7 +133,7 @@ export default (props) => {
           <a
             href='https://www.udemy.com/understand-javascript/'
             target='_blank'
-            rel="noopener noreferrer" å>
+            rel="noopener noreferrer" >
             <h4>JavaScript: Understanding the Weird Parts</h4></a>
           <h5>Author: Anthony Alicia</h5>
           <img

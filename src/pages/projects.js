@@ -18,7 +18,7 @@ export default () => (
         <h4>May-Present</h4>
 
         <p>
-          TripDaddy is a web app that eliminates the pain points of coordinating a trip with friends and family. Users are able to pin ideas for their trip to a board and chat in-app as they discuss which events they want to do. Users are able to invite friends to the trip and use the gear and todo list to make sure nothing is forgotten.
+          TripDaddy is a web app that eliminates the pain points of coordinating a trip with friends and family. Users are able to pin ideas for their trip to a board and chat in-app as they discuss which events they want to do. Users are able to invite friends to the trip and use the gear and to do list to make sure nothing is forgotten.
         </p>
         <img src={dashboard} alt='Trip Dashboard' className='projectPic' />
 
